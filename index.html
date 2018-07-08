@@ -1,14 +1,553 @@
-!<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="">
+
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
 </head>
+
 <body>
-  
+
+  <!-- RESPONSIVE NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="">
+      <img src="img/brand.png" class="brandImage">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Shop
+          <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-item nav-link" href="#">Info</a>
+        <a class="nav-item nav-link" href="#">Blog</a>
+        <a class="nav-item nav-link" href="#">Atelier</a>
+      </div>
+    </div>
+  </nav>
+  <!-- /RESPONSIVE NAVBAR -->
+
+
+  <!-- MAIN CONTAINER -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- COL for the Carousel-->
+      <div class="col-12 col-sm-12 col-md-4" id="carousel-container">
+        <!-- CAROUSEL -->
+        <div id="carouselSlider" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/afriduchesse-jaune.jpg" alt="afriduchesse-jaune">
+              <p class="carouselTitle">Collection Capsule Africaine</p>
+              <p class="carouselDesc">Afriduchesse jaune : Découvrez nos socquettes ensoleillées d'inspiration wax</p>
+              <a class="btn btn-secondary" href="">Découvrir</a>
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/blueproduct.png" alt="Produits bleu">
+              <p class="carouselTitle">
+                <p>Collection Capsule Africaine</p>
+                <p class="carouselDesc">
+                  <p>Afriduchesse bleu : Osez des touches de couleurs dans vos tenues éstivales!</p>
+                  <a class="btn btn-secondary" href="">
+                    <p>Découvrir</p>
+                  </a>
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/sales.png" alt="Solde d'été">
+              <p class="carouselTitle">Soldes d'été</p>
+              <p class="carouselDesc">Les soldes d'été débarquent !</p>
+              <a class="btn btn-secondary" href="">Découvrir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /COL for the Carousel-->
+
+      <!-- CoL for the products beside the carousel-->
+
+      <!-- Two products per column-->
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <!-- /CoL for the products beside the carousel-->
+
+    </div>
+    <!-- /CAROUSEL -->
+
+    <!-- FIRST ROW -->
+    <div class="row">
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+    </div>
+    <!-- /FIRST ROW -->
+
+    <!-- SECOND ROW -->
+    <div class="row">
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+      </div>
+    </div>
+    <!-- /SECOND ROW -->
+
+    <div class="row">
+      <!-- CoL for the products beside the carousel-->
+
+      <!-- Two products per column-->
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <!-- /CoL for the products beside the big image -->
+
+      <!-- COL BIG IMAGE-->
+      <div class="col-12 col-sm-12 col-md-4" id="carousel-container">
+        <img src="img/fil.jpg" class="img-fluid" alt="REsponsive image">
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-md-2" id="products">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+
+        <img src="img/rouge-maison-close (1).jpg" class="img-fluid" alt="REsponsive image">
+        <p class="price">Bouclette | 7,00€</p>
+        <p class="productName">Rouge maison close</p>
+      </div>
+    </div>
+
+
+
+    <!--==========================================================================
+          FOOTER
+          ========================================================================== */
+      -->
+    <footer>
+      <div class="row">
+        <h1>Chaussettes 100 % françaises</h1>
+        <p class="footer">Les chaussettes d’Archiduchesse, c’est un large choix de couleurs et de formes pour habiller vos pieds ! La boutique
+          en ligne propose plus de 40 coloris et des modèles variés pour répondre à toutes les envies : chaussettes De ville
+          lisses et hautes, chaussettes De luxe en fil d’Écosse, chaussettes Courtes, chaussettes Bouclettes douces et bien
+          chaudes, chaussettes Fantaisie, socquettes invisibles et même collants. Nos chaussettes sont entièrement fabriquées
+          en France, véritable gage de qualité. Et comme rien n’est trop beau pour vos jambes, Archiduchesse agrandit sa
+          collection en été avec une gamme d’espadrilles, elles aussi 100 % made in France ! </p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h2>Chaussettes taille 15 à 46 </h2>
+          <p class="footerText">Trouvez chaussettes à vos pieds avec Archiduchesse ! Chaussettes homme ou chaussettes femme, Archiduchesse vous
+            propose une quarantaine de coloris dans toutes les tailles : du plus fun au plus classique. À vous de voir si
+            vos chaussures s’accordent mieux avec un Beige café au lait, un Vert Anglais, un Ultra Violet, un Bleu ligne
+            13 ou un Gris Nocéros… Et parce que le style est aussi une affaire de goût et de confort, nos chaussettes homme
+            et chaussettes femme se déclinent en différents modèles. Bien hautes pour couvrir la cheville ou au contraire
+            taille socquette pour être invisibles en été : la chaussette s’adapte. Les frileux apprécieront la douillette
+            gamme Bouclette, tandis que les raffinés préféreront les chaussettes fines en fil d’Écosse. Vous avez des enfants
+            ? Offrez-leur des chaussettes branchées grâce à Archiduchesse ! La gamme De ville est disponible en tailles enfants
+            dans 20 coloris différents… de quoi illuminer tous ces petits pieds !</p>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <h2>Chaussettes françaises… et collaboratives</h2>
+          <p class="footerText">
+            Sympathique et décalée, la marque Archiduchesse a mis un point d’honneur à proposer des chaussettes intégralement fabriquées
+            en France. Dans le respect de l’environnement et de la santé, le coton est certifié OEKO-TEX® : un label qui
+            garantit l’absence de substance nocive. Quant au tricotage, il revient à Broussaud Textiles : une entreprise
+            limousine, complice d’Archiduchesse depuis le début de l’aventure et qui certifie les produits Origine France
+            Garantie. Derrière les chaussettes Archiduchesse, il y a toute une communauté active ! Tout le monde peut créer
+            son modèle de chaussette et le soumettre au vote : l’occasion unique de porter des chaussettes originales et
+            personnalisées. La chaussette est devenue un accessoire qui compte !
+          </p>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <h2>
+            Espadrilles ou collants made in France !
+          </h2>
+          <p class="footerText">
+            Archiduchesse prend soin de vos pieds en toute saison et sous toutes les températures ! Au plus chaud de l’été, il y a les
+            socquettes invisibles qui restent sous la cheville pour se cacher dans la chaussure et pour les adeptes du style
+            pieds-nus, Archiduchesse propose également une gamme d’espadrilles tout droit venues du Sud-Ouest. Fabriquées
+            à Mauléon, au Pays Basque, les espadrilles Archiduchesse mettent de la couleur à vos pieds : Orange Citrouille,
+            Vert Pomme, Bleu Gitanes… Quand les premiers frimas de l’hiver glacent nos belles gambettes, Archiduchesse défie
+            la grisaille avec une gamme de collants adultes Rouge Carmin, Jaune Moutarde, Purple Rain, Bleu Pétrole, Noir
+            Réglisse. 100 % made in France, ces collants en microfibre protègent vos jambes du froid avec douceur.
+          </p>
+        </div>
+
+      </div>
+
+
+      <!--==========================================================================
+          ICONS
+          ========================================================================== */
+      -->
+      <div class="row">
+        <div class="col-6 col-md-3" id="footerIcons">
+          <a hrf="">
+            <img src="img/coq.png">
+            <p class="footer">Fabrication française</p>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-3" id="footerIcons">
+          <a hrf="">
+            <img src="img/returns.png">
+            <p class="footer">Retours et échanges</p>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-3" id="footerIcons">
+          <a hrf="">
+            <img src="img/payment.png">
+            <p class="footer">Paiement sécurisé</p>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-3" id="footerIcons">
+          <a hrf="">
+            <img src="img/delivery.png">
+            <p class="footer">Livraison 48/72h
+              <br/> offerte dès 46 € d'achats
+              <br/> (France & Europe)</p>
+          </a>
+        </div>
+      </div>
+      <!--==========================================================================
+          /ICONS
+          ========================================================================== */
+      -->
+
+      <!--==========================================================================
+          MENU
+          ========================================================================== */
+      -->
+      <div class="row" id="bottomFooter">
+        <div class="col-12 col-md-3">
+          <img src="img/adressicon.jpg">
+          <p>7, rue Ferdinand Buisson - 92110 Clichy Tél : 06.66.31.10.97</p>
+          <p>hello@archiduchesse.com</p>
+        </div>
+
+        <div class="col-12 col-md-2" id="footerMenu">
+          <h3>Archiduchesse</h3>
+          <ul>
+            <li>Boutique</li>
+            <li>Blog</li>
+            <li>Marque</li>
+            <li>Atelier</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-2" id="footerMenu">
+            <h3>Collection</h3>
+            <ul>
+              <li>Chaussettes</li>
+              <li>Collants</li>
+              <li>Espadrilles</li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-2" id="footerMenu">
+            <h3>Informations</h3>
+            <ul>
+              <li>FAQ</li>
+              <li>Livraisons</li>
+              <li>Retours</li>
+              <li>Paiements sécurisés</li>
+              <li>CGV</li>
+              <li>Vos informations personnelles</li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-3" id="footerMenu">
+            <h3>Suivez-nous</h3>
+            <p class="news">Inscrivez-vous à la newsletter et découvrez toutes les news et exclusivité de la boutique</p>
+          <img src="img/facebook.png">
+          <img src="img/twitter.png">
+          <img src="img/instagram.png">
+          <img src="img/pinterest.png">
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
+
 </html>
