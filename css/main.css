@@ -101,9 +101,49 @@ textarea {
    Responsive
    ========================================================================== */
 
+   @media (min-width: 576px) { 
+       .navbar-brand img {
+        width: 80%;
+        position: relative;
+        right: 40%;
+       }
+    }
+
+
 /* ==========================================================================
    DESKTOP
    ========================================================================== */
+
+   /*NAVBAR*/
+.nav-link {
+    position: relative;
+    bottom: 40px;
+    font-size: 0.7rem;
+}
+
+.nav-item.active a{
+    position: relative;
+    bottom: 40px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+}
+
+.nav-item {
+    margin: 0 2px 0 2px;
+}
+
+.nav-item a:hover {
+    position: relative;
+    bottom: 40px;
+    background-color: #E6E6E6;
+}
+
+
+.nav-item img {
+    position: relative;
+    left: 30%;
+}
+
 
 ul {
     padding: 0;
@@ -136,10 +176,9 @@ div#products {
 }
 
 button.btn.btn-secondary.btn-sm {
-    margin-top : 1.5%;
+    margin-top: 1.5%;
     margin-bottom: 1%;
 }
-
 
 /* For the image to take all the width of the container where she is */
 
@@ -148,10 +187,11 @@ button.btn.btn-secondary.btn-sm {
     height: auto;
 }
 
-.price, .productName {
+.price,
+.productName {
     font-size: 12px;
     margin: 0;
-    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 .carouselTitle {
@@ -173,7 +213,8 @@ h1 {
     text-align: center;
 }
 
-.footer, .footerText {
+.footer,
+.footerText {
     color: #777777;
     font-size: 16px;
     line-height: 24px;
@@ -220,25 +261,73 @@ article {
     padding-bottom: 4rem;
     padding-top: 4rem;
     padding-left: 3rem;
+    text-align: justify;
 }
 
 .headArticle h1 {
     text-align: left;
 }
 
-div.col-md-3.col-md-offset-1 ul li {
-    list-style: none;
-    color: #444;
-    font-size: 1.2em;
-    line-height: 1em;
-    padding-left: 4px;
-    line-height: 1.2rem;
+.headerBlog {
+    padding-bottom: 1.4em;
 }
 
-.articleContent, h3, h4 {
+.author {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.tag a {
+    margin: 0 0.5px 0 0.5px;
+    font-size: 0.8em;
+    padding: 2px;
+    background-color: #e6e6e6;
+    color: #777;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.title a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.articleContent,
+h3,
+h4 {
     padding-bottom: 3%;
 }
 
+.articleContent {
+    font-size: 0.8rem;
+}
+
+h4 {
+    font-style: italic;
+}
+
+em {
+    font-weight: bold;
+    font-size: 0.7rem;
+    font-style: initial; 
+}
+
+.SideCat, span {
+    color: #444;
+    font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+div.col-md-2.offset-md-1 ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    color: #444;
+    font-size: 0.7em;
+    line-height: 1em;
+    line-height: 0.8rem;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
