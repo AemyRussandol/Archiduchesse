@@ -104,8 +104,15 @@ textarea {
 /* ==========================================================================
    DESKTOP
    ========================================================================== */
+
 ul {
     padding: 0;
+}
+
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    color: #777;
 }
 
 #carousel-container {
@@ -120,8 +127,19 @@ ul {
 
 div#carousel-container.col-12.col-sm-12.col-md-4 {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
+
+div#products {
+    margin-top: 7%;
+    padding-bottom: 5%;
+}
+
+button.btn.btn-secondary.btn-sm {
+    margin-top : 1.5%;
+    margin-bottom: 1%;
+}
+
 
 /* For the image to take all the width of the container where she is */
 
@@ -130,12 +148,24 @@ div#carousel-container.col-12.col-sm-12.col-md-4 {
     height: auto;
 }
 
-a.btn.btn-secondary {
-    margin: auto;
+.price, .productName {
+    font-size: 12px;
+    margin: 0;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+
+.carouselTitle {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.btn.btn-primary {
+    margin-top: 2%;
     height: 30px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     display: inline-block;
+    background-color: grey;
 }
 
 .footer,
@@ -143,8 +173,18 @@ h1 {
     text-align: center;
 }
 
+.footer, .footerText {
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 h1 {
     width: 100%;
+}
+
+.footerTitle {
+    font-size: 24px;
 }
 
 #bottomFooter h3 {
@@ -172,6 +212,31 @@ h1 {
 #footerMenu ul li {
     list-style: none;
     text-align: left;
+}
+
+/* BLOG */
+
+article {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+.headArticle h1 {
+    text-align: left;
+}
+
+div.col-md-3.col-md-offset-1 ul li {
+    list-style: none;
+    color: #444;
+    font-size: 1.2em;
+    line-height: 1em;
+    padding-left: 4px;
+    line-height: 1.2rem;
+}
+
+.articleContent, h3 {
+    padding-bottom: 3%;
 }
 
 /* ==========================================================================
