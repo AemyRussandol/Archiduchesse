@@ -235,7 +235,7 @@ div.col-md-3.col-md-offset-1 ul li {
     line-height: 1.2rem;
 }
 
-.articleContent, h3 {
+.articleContent, h3, h4 {
     padding-bottom: 3%;
 }
 
