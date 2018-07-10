@@ -39,27 +39,37 @@
 
 <body>
 
-    <!-- RESPONSIVE NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="">
-            <img src="img/brand.png" class="brandImage">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Shop
-                    <span class="sr-only">(current)</span>
-                </a>
-                <a class="nav-item nav-link" href="#">Info</a>
-                <a class="nav-item nav-link" href="#">Blog</a>
-                <a class="nav-item nav-link" href="#">Atelier</a>
-            </div>
-        </div>
-    </nav>
-    <!-- /RESPONSIVE NAVBAR -->
+  <!-- RESPONSIVE NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Atelier</a>
+        </li>
+      </ul>
+      </div>
+      <a class="navbar-brand" href="#"><img src="img/logo-normal.png"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item .d-none">Bienvenue, connexion</li>
+      <li class="nav-item">FR</li>
+      <li class="nav-item"><img src="img/nav.png"></li>
+      <li class="nav-item"><img src="img/navpanier.png"></li>
+    </ul>
+
+  </nav>
+<!-- / NAVBAR -->
 
 
     <!--==========================================================================
@@ -123,7 +133,7 @@
                                                 soie est pas très bien ressorti en photo hein, mais il est en dessous !):
                         </p>
 
-                        <img src="img/Commande3-768x473.jpeg" alt="Image Article" class="imgArticle"> On est pas encore parfait sur toute la ligne bien sur, on pourrait trouver des choses qu’on ne fait
+                        <img src="img/Commande3-768x473.jpeg" alt="Image Article" class="img-fluid"> On est pas encore parfait sur toute la ligne bien sur, on pourrait trouver des choses qu’on ne fait
                         “pas bien”, je pense notamment à l’utilisation de mini bouteilles d’eau au bureau et de gobelet pour
                         le café… Mais on y travaille ! Alors, si vous voulez acheter responsable, pensez à nos chaussettes
                         ! 😃
@@ -184,18 +194,16 @@
                                                 ou le sticker, ou rien du tout ! 👍 La preuve en images (heu… le papier de
                                                 soie est pas très bien ressorti en photo hein, mais il est en dessous !):
                         </p>
-
-                        <img src="img/Commande3-768x473.jpeg" alt="Image Article" class="imgArticle"> On est pas encore parfait sur toute la ligne bien sur, on pourrait trouver des choses qu’on ne fait
+                        <img src="img/Commande3-768x473.jpeg" alt="Image Article" class="img-fluid"> On est pas encore parfait sur toute la ligne bien sur, on pourrait trouver des choses qu’on ne fait
                         “pas bien”, je pense notamment à l’utilisation de mini bouteilles d’eau au bureau et de gobelet pour
                         le café… Mais on y travaille ! Alors, si vous voulez acheter responsable, pensez à nos chaussettes
                         ! 😃
-                        </p>
                     </div>
                 </article>
 
             </div>
             <!-- ASIDE -->
-            <div class="col-md-2 offset-md-1">
+            <div class="hidden-sm-down col-md-2 offset-md-1">
                 <h2 class="SideCat">Catégories</h2>
                 <span>pour faire le tri</span>
                 <ul>
@@ -306,102 +314,160 @@
           FOOTER
           ========================================================================== */
       -->
-    <footer>
-
-
-        <!--==========================================================================
-          ICONS
-          ========================================================================== */
-      -->
+      <footer>
         <div class="row">
-            <div class="col-6 col-md-3" id="footerIcons">
-                <a hrf="">
-                    <img src="img/coq.png">
-                    <p class="footer">Fabrication française</p>
-                </a>
-            </div>
-
-            <div class="col-6 col-md-3" id="footerIcons">
-                <a hrf="">
-                    <img src="img/returns.png">
-                    <p class="footer">Retours et échanges</p>
-                </a>
-            </div>
-
-            <div class="col-6 col-md-3" id="footerIcons">
-                <a hrf="">
-                    <img src="img/payment.png">
-                    <p class="footer">Paiement sécurisé</p>
-                </a>
-            </div>
-
-            <div class="col-6 col-md-3" id="footerIcons">
-                <a hrf="">
-                    <img src="img/delivery.png">
-                    <p class="footer">Livraison 48/72h
-                        <br/> offerte dès 46 € d'achats
-                        <br/> (France & Europe)</p>
-                </a>
-            </div>
+          <h1>Chaussettes 100 % françaises</h1>
+          <p class="footer">Les chaussettes d’Archiduchesse, c’est un large choix de couleurs et de formes pour habiller vos pieds ! La boutique
+            en ligne propose plus de 40 coloris et des modèles variés pour répondre à toutes les envies : chaussettes De ville
+            lisses et hautes, chaussettes De luxe en fil d’Écosse, chaussettes Courtes, chaussettes Bouclettes douces et bien
+            chaudes, chaussettes Fantaisie, socquettes invisibles et même collants. Nos chaussettes sont entièrement fabriquées
+            en France, véritable gage de qualité. Et comme rien n’est trop beau pour vos jambes, Archiduchesse agrandit sa
+            collection en été avec une gamme d’espadrilles, elles aussi 100 % made in France ! </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h2 class="footerTitle">Chaussettes taille 15 à 46 </h2>
+            <p class="footerText">Trouvez chaussettes à vos pieds avec Archiduchesse ! Chaussettes homme ou chaussettes femme, Archiduchesse vous
+              propose une quarantaine de coloris dans toutes les tailles : du plus fun au plus classique. À vous de voir si
+              vos chaussures s’accordent mieux avec un Beige café au lait, un Vert Anglais, un Ultra Violet, un Bleu ligne
+              13 ou un Gris Nocéros… Et parce que le style est aussi une affaire de goût et de confort, nos chaussettes homme
+              et chaussettes femme se déclinent en différents modèles. Bien hautes pour couvrir la cheville ou au contraire
+              taille socquette pour être invisibles en été : la chaussette s’adapte. Les frileux apprécieront la douillette
+              gamme Bouclette, tandis que les raffinés préféreront les chaussettes fines en fil d’Écosse. Vous avez des enfants
+              ? Offrez-leur des chaussettes branchées grâce à Archiduchesse ! La gamme De ville est disponible en tailles enfants
+              dans 20 coloris différents… de quoi illuminer tous ces petits pieds !</p>
+          </div>
+  
+          <div class="col-12 col-md-4">
+            <h2 class="footerTitle">Chaussettes françaises… et collaboratives</h2>
+            <p class="footerText">
+              Sympathique et décalée, la marque Archiduchesse a mis un point d’honneur à proposer des chaussettes intégralement fabriquées
+              en France. Dans le respect de l’environnement et de la santé, le coton est certifié OEKO-TEX® : un label qui
+              garantit l’absence de substance nocive. Quant au tricotage, il revient à Broussaud Textiles : une entreprise
+              limousine, complice d’Archiduchesse depuis le début de l’aventure et qui certifie les produits Origine France
+              Garantie. Derrière les chaussettes Archiduchesse, il y a toute une communauté active ! Tout le monde peut créer
+              son modèle de chaussette et le soumettre au vote : l’occasion unique de porter des chaussettes originales et
+              personnalisées. La chaussette est devenue un accessoire qui compte !
+            </p>
+          </div>
+  
+          <div class="col-12 col-md-4">
+            <h2 class="footerTitle">
+              Espadrilles ou collants made in France !
+            </h2>
+            <p class="footerText">
+              Archiduchesse prend soin de vos pieds en toute saison et sous toutes les températures ! Au plus chaud de l’été, il y a les
+              socquettes invisibles qui restent sous la cheville pour se cacher dans la chaussure et pour les adeptes du style
+              pieds-nus, Archiduchesse propose également une gamme d’espadrilles tout droit venues du Sud-Ouest. Fabriquées
+              à Mauléon, au Pays Basque, les espadrilles Archiduchesse mettent de la couleur à vos pieds : Orange Citrouille,
+              Vert Pomme, Bleu Gitanes… Quand les premiers frimas de l’hiver glacent nos belles gambettes, Archiduchesse défie
+              la grisaille avec une gamme de collants adultes Rouge Carmin, Jaune Moutarde, Purple Rain, Bleu Pétrole, Noir
+              Réglisse. 100 % made in France, ces collants en microfibre protègent vos jambes du froid avec douceur.
+            </p>
+          </div>
+  
+        </div>
+  
+  
+        <!--==========================================================================
+            ICONS
+            ========================================================================== */
+        -->
+        <div class="row">
+          <div class="col-6 col-md-3" id="footerIcons">
+            <a hrf="">
+              <img src="img/coq.png">
+              <p class="footer">Fabrication française</p>
+            </a>
+          </div>
+  
+          <div class="col-6 col-md-3" id="footerIcons">
+            <a hrf="">
+              <img src="img/returns.png">
+              <p class="footer">Retours et échanges</p>
+            </a>
+          </div>
+  
+          <div class="col-6 col-md-3" id="footerIcons">
+            <a hrf="">
+              <img src="img/payment.png">
+              <p class="footer">Paiement sécurisé</p>
+            </a>
+          </div>
+  
+          <div class="col-6 col-md-3" id="footerIcons">
+            <a hrf="">
+              <img src="img/delivery.png">
+              <p class="footer">Livraison 48/72h
+                <br/> offerte dès 46 € d'achats
+                <br/> (France & Europe)</p>
+            </a>
+          </div>
         </div>
         <!--==========================================================================
-          /ICONS
-          ========================================================================== */
-      -->
-
+            /ICONS
+            ========================================================================== */
+        -->
+  
         <!--==========================================================================
-          MENU
-          ========================================================================== */
-      -->
+            MENU
+            ========================================================================== */
+        -->
         <div class="row" id="bottomFooter">
-            <div class="col-12 col-md-3">
-                <img src="img/adressicon.jpg">
-                <p>7, rue Ferdinand Buisson - 92110 Clichy Tél : 06.66.31.10.97</p>
-                <p>hello@archiduchesse.com</p>
+          <div class="col-12 col-md-3">
+            <img src="img/adressicon.jpg">
+            <p>7, rue Ferdinand Buisson - 92110 Clichy Tél : 06.66.31.10.97</p>
+            <p>hello@archiduchesse.com</p>
+          </div>
+  
+          <div class="col-12 col-md-2" id="footerMenu">
+            <h3>Archiduchesse</h3>
+            <ul >
+              <li>Boutique</li>
+              <li>Blog</li>
+              <li>Marque</li>
+              <li>Atelier</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-md-2" id="footerMenu">
+            <h3>Collection</h3>
+            <ul>
+              <li>Chaussettes</li>
+              <li>Collants</li>
+              <li>Espadrilles</li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-md-2" id="footerMenu">
+            <h3>Informations</h3>
+            <ul>
+              <li>FAQ</li>
+              <li>Livraisons</li>
+              <li>Retours</li>
+              <li>Paiements sécurisés</li>
+              <li>CGV</li>
+              <li>Vos informations personnelles</li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-md-3" id="footerMenu">
+            <h3>Suivez-nous</h3>
+            <p class="news">Inscrivez-vous à la newsletter et découvrez toutes les news et exclusivité de la boutique</p>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Saisissez votre adresse e-mail" />
+              <span>
+                <img src="img/mail.png">
+              </span>
             </div>
-
-            <div class="col-12 col-md-2" id="footerMenu">
-                <h3>Archiduchesse</h3>
-                <ul>
-                    <li>Boutique</li>
-                    <li>Blog</li>
-                    <li>Marque</li>
-                    <li>Atelier</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-2" id="footerMenu">
-                <h3>Collection</h3>
-                <ul>
-                    <li>Chaussettes</li>
-                    <li>Collants</li>
-                    <li>Espadrilles</li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-2" id="footerMenu">
-                <h3>Informations</h3>
-                <ul>
-                    <li>FAQ</li>
-                    <li>Livraisons</li>
-                    <li>Retours</li>
-                    <li>Paiements sécurisés</li>
-                    <li>CGV</li>
-                    <li>Vos informations personnelles</li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-3" id="footerMenu">
-                <h3>Suivez-nous</h3>
-                <p class="news">Inscrivez-vous à la newsletter et découvrez toutes les news et exclusivité de la boutique</p>
-                <img src="img/facebook.png">
-                <img src="img/twitter.png">
-                <img src="img/instagram.png">
-                <img src="img/pinterest.png">
-            </div>
+            <img src="img/facebook.png">
+            <img src="img/twitter.png">
+            <img src="img/instagram.png">
+            <img src="img/pinterest.png">
+          </div>
         </div>
-    </footer>
+      </footer>
 
     </div>
 

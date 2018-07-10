@@ -100,16 +100,11 @@ textarea {
 /* ==========================================================================
    Responsive
    ========================================================================== */
-
-   @media (min-width: 576px) { 
-       .navbar-brand img {
-        width: 80%;
-        position: relative;
-        right: 40%;
-       }
+   @media (min-width: 0px) and (max-width: 576px) {
+    .hidden-sm-down {
+        display: none;
     }
-
-
+   }
 /* ==========================================================================
    DESKTOP
    ========================================================================== */
@@ -144,6 +139,19 @@ textarea {
     left: 30%;
 }
 
+#navrow{
+    position: fixed;
+    width: 100%;
+    border-bottom: solid lightgray 1px;
+}
+
+#navrow ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size : 1rem;
+    font-style: italic
+}
 
 ul {
     padding: 0;
@@ -254,6 +262,28 @@ h1 {
     list-style: none;
     text-align: left;
 }
+
+input{
+    border:none;
+    background-color: transparent;
+    width: 150px;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+  input.form-control {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 0.8rem;
+  }
+  
+  .input-group{
+    border: 1px gray solid;
+    border-radius: 10%;
+  }
 
 /* BLOG */
 
