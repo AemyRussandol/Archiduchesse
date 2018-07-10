@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Amélie - front developper
 
 # THANKS
 
-    <name>
+    Thierry & the YWW'people
 
 # TECHNOLOGY COLOPHON
 
